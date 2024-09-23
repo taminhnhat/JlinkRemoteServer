@@ -4,9 +4,9 @@ Description=jlink remote server service
 [Service]
 Type=simple
 WorkingDirectory=/home/nhattm/jlink_ws
-ExecStart=/home/nhattm/jlink_ws/JlinkRemoteServer/jlink_remote_server.sh
+ExecStart=/home/nhattm/Workspace/jlink_ws/JlinkRemoteServer/jlink_remote_server.sh
 Restart=no
-StandardOutput=file:/home/nhattm/jlink_ws/JlinkRemoteServer/jlink_remote_server.log
+StandardOutput=file:/home/nhattm/Workspace/jlink_ws/JlinkRemoteServer/jlink_remote_server.log
 
 [Install]
 WantedBy=default.target
