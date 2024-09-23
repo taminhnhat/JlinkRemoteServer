@@ -5,7 +5,7 @@ Description=jlink remote server service
 Type=simple
 WorkingDirectory=/home/nhattm/jlink_ws
 ExecStart=/home/nhattm/jlink_ws/JlinkRemoteServer/jlink_remote_server.sh
-Restart=on-failure
+Restart=no
 StandardOutput=file:/home/nhattm/jlink_ws/JlinkRemoteServer/jlink_remote_server.log
 
 [Install]
